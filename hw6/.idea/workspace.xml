@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/hw6$main.coverage" NAME="main Coverage Results" MODIFIED="1487794810735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hw6$main.coverage" NAME="main Coverage Results" MODIFIED="1488061623031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -23,91 +23,68 @@
     <favorites_list name="hw6" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1487794810709" expanded="true" signature="249:280" ph="INSERT INTO benchmark_v1... " />
-                <marker date="1487794810709" expanded="true" signature="318:349" ph="INSERT INTO benchmark_v2... " />
-                <marker date="1487794810709" expanded="true" signature="5641:5655" ph="SELECT * FRO... BENCH" />
-                <marker date="1487794810709" expanded="true" signature="5641:5674" ph="SELECT * FRO... " />
-                <marker date="1487794810709" expanded="true" signature="5690:5723" ph="SELECT * FRO... " />
-                <marker date="1487794810709" expanded="true" signature="5739:5787" ph="SELECT * FRO... " />
-                <marker date="1487794810709" expanded="true" signature="6152:6192" ph="SELECT * FRO... missing_value" />
-                <marker date="1487794810709" expanded="true" signature="6365:6405" ph="SELECT * FRO... missing_value" />
-                <marker date="1487794810709" expanded="true" signature="6578:6622" ph="SELECT * FRO... missing_value" />
-                <marker date="1487794810709" expanded="true" signature="6578:6623" ph="SELECT * FRO... missing_value" />
-                <marker date="1487794810709" expanded="true" signature="6578:6639" ph="SELECT * FRO... missing_value" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="q_log_perf.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/q_log_perf.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1_log_perf.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_log_perf.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log_perf.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_perf.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="os.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/os.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1936">
-              <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/threading.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18810">
-              <caret line="861" column="0" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/random.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="388">
+                  <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                    <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+                    <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+                    <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+                    <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="log_perf.csv" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/log_perf.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="66">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="836">
+                  <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                    <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+                    <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+                    <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+                    <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="q_log_perf.csv" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/q_log_perf.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,10 +109,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
+    <option name="x" value="1911" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -162,34 +139,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -414,7 +374,7 @@
       <module name="hw6" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="1 0 50" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -436,27 +396,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29699248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30128893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990665" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990665" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -477,23 +437,127 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/log_perf.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+            <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q_log_perf.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1487794810709" expanded="true" signature="249:280" ph="INSERT INTO benchmark_v1... " />
-            <marker date="1487794810709" expanded="true" signature="318:349" ph="INSERT INTO benchmark_v2... " />
-            <marker date="1487794810709" expanded="true" signature="5641:5655" ph="SELECT * FRO... BENCH" />
-            <marker date="1487794810709" expanded="true" signature="5641:5674" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="5690:5723" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="5739:5787" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="6152:6192" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6365:6405" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6622" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6623" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6639" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+            <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q_log_perf.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_perf.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3938">
+          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+            <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q_log_perf.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_perf.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18810">
+          <caret line="861" column="0" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+            <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
           </folding>
         </state>
       </provider>
@@ -502,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18810">
           <caret line="861" column="0" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,17 +589,10 @@
           <caret line="145" column="46" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1487794810709" expanded="true" signature="249:280" ph="INSERT INTO benchmark_v1... " />
-            <marker date="1487794810709" expanded="true" signature="318:349" ph="INSERT INTO benchmark_v2... " />
-            <marker date="1487794810709" expanded="true" signature="5641:5655" ph="SELECT * FRO... BENCH" />
-            <marker date="1487794810709" expanded="true" signature="5641:5674" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="5690:5723" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="5739:5787" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="6152:6192" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6365:6405" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6622" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6623" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6639" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+            <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
           </folding>
         </state>
       </provider>
@@ -555,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18810">
           <caret line="861" column="0" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,17 +632,10 @@
           <caret line="149" column="50" selection-start-line="149" selection-start-column="50" selection-end-line="149" selection-end-column="50" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1487794810709" expanded="true" signature="249:280" ph="INSERT INTO benchmark_v1... " />
-            <marker date="1487794810709" expanded="true" signature="318:349" ph="INSERT INTO benchmark_v2... " />
-            <marker date="1487794810709" expanded="true" signature="5641:5655" ph="SELECT * FRO... BENCH" />
-            <marker date="1487794810709" expanded="true" signature="5641:5674" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="5690:5723" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="5739:5787" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="6152:6192" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6365:6405" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6622" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6623" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6639" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+            <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
           </folding>
         </state>
       </provider>
@@ -608,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18810">
           <caret line="861" column="0" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18810">
           <caret line="861" column="0" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,52 +687,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1_log_perf.csv" />
     <entry file="file://$PROJECT_DIR$/log_perf.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_log_perf.csv">
+    <entry file="file://$PROJECT_DIR$/q_log_perf.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
+        <state relative-caret-position="388">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1487794810709" expanded="true" signature="249:280" ph="INSERT INTO benchmark_v1... " />
-            <marker date="1487794810709" expanded="true" signature="318:349" ph="INSERT INTO benchmark_v2... " />
-            <marker date="1487794810709" expanded="true" signature="5641:5655" ph="SELECT * FRO... BENCH" />
-            <marker date="1487794810709" expanded="true" signature="5641:5674" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="5690:5723" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="5739:5787" ph="SELECT * FRO... " />
-            <marker date="1487794810709" expanded="true" signature="6152:6192" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6365:6405" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6622" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6623" ph="SELECT * FRO... missing_value" />
-            <marker date="1487794810709" expanded="true" signature="6578:6639" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="305:333" ph="INSERT INTO benchmark... " />
+            <marker date="1488074893551" expanded="true" signature="5636:5676" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="5837:5877" ph="SELECT * FRO... missing_value" />
+            <marker date="1488074893551" expanded="true" signature="6038:6099" ph="SELECT * FRO... missing_value" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q_log_perf.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
